@@ -1,55 +1,54 @@
 <template>
-    <div class="container">
-      <div class="mainSec centered">
-        <img src="../assets/Aziz/Aziz.png" alt="Aziz's image" class="profile-img">
-        <div class="text1 textColor">
-          Hi, It's <span class="text nameColor">Aziz</span>
-          <SocialLinks />
-        </div>
+  <div class="container">
+    <div class="mainSec centered">
+      <img src="../assets/Aziz/Aziz.png" alt="Aziz's image" class="profile-img" />
+      <div class="text1 textColor">
+        Hi, It's <span class="text nameColor">Aziz</span>
+        <SocialLinks />
       </div>
-  
-      <div class="secondSec">
-        <div class="inline">
-          <div class="icon-text">
-            <img src="../assets/icons/contact/phone.png" alt="Phone Icon" />
-            <div class="text2">(+216)24335292</div>
-          </div>
-        </div>
-  
-        <div class="separator"></div>
-  
-        <div class="inline">
-          <div class="icon-text">
-            <img src="../assets/icons/contact/email.png" alt="Email Icon" />
-            <div class="text2">laafine.med.aziz@gmail.com</div>
-          </div>
-        </div>
-  
-        <div class="separator"></div>
-  
-        <div class="inline">
-          <div class="icon-text">
-            <img src="../assets/icons/contact/location.png" alt="Location Icon" />
-            <div class="text2">Oued Ellil, Manouba, Tunisia</div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="textColor bottomSec">
-        Motivated, passionate, and highly disciplined computer science student.
-        Here you can find my CV for detailed information about my skills.
-        <a href="https://laafinebio.netlify.app/assets/CV-CNK93nxL.pdf">
-          <img class="flag-icon" src="../assets/icons/flags/france.png" alt="LinkedIn" />
-        </a>
-        <a href="https://laafinebio.netlify.app/assets/Resume-DgidOVQH.pdf">
-          <img class="flag-icon" src="../assets/icons/flags/unitedKingdom.png" alt="LinkedIn" />
-        </a>
-      </div>
-  
-      <div class="footer">© 2024 Scylla development. All rights reserved.</div>
     </div>
-  </template>
-  
+
+    <div class="secondSec">
+      <div class="inline">
+        <div class="icon-text">
+          <img src="../assets/icons/contact/phone.png" alt="Phone Icon" />
+          <div class="text2">(+216)24335292</div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="inline">
+        <div class="icon-text">
+          <img src="../assets/icons/contact/email.png" alt="Email Icon" />
+          <div class="text2">laafine.med.aziz@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="inline">
+        <div class="icon-text">
+          <img src="../assets/icons/contact/location.png" alt="Location Icon" />
+          <div class="text2">Oued Ellil, Manouba, Tunisia</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="textColor bottomSec">
+      Motivated, passionate, and highly disciplined computer science student. Here you can find my
+      CV for detailed information about my skills.
+      <a href="https://laafinebio.netlify.app/assets/CV-CNK93nxL.pdf">
+        <img class="flag-icon" src="../assets/icons/flags/france.png" alt="LinkedIn" />
+      </a>
+      <a href="https://laafinebio.netlify.app/assets/Resume-DgidOVQH.pdf">
+        <img class="flag-icon" src="../assets/icons/flags/unitedKingdom.png" alt="LinkedIn" />
+      </a>
+    </div>
+
+    <div class="footer">© 2024 Scylla development. All rights reserved.</div>
+  </div>
+</template>
 
 <script setup>
 import SocialLinks from '../components/SocialLinks.vue'
@@ -105,17 +104,17 @@ import SocialLinks from '../components/SocialLinks.vue'
 
 .text1 {
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
 }
 
 .text2 {
   font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nameColor {
-  color: #FED453;
+  color: #fed453;
   font-weight: bold;
 }
 
